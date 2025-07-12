@@ -1,5 +1,5 @@
 {
-  "name": "KEITH-MD",
+  "name": "𝙈𝘼𝙍𝘾-𝙈𝘿",
   "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
   "keywords": [
     "bot",
@@ -14,9 +14,9 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Keithkeizzah/KEITH-MD#readme",
-  "repository": "https://github.com/Keithkeizzah/KEITH-MD.git",
-  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
+  "website": "https://github.com/MARC701/KEITH-MD#readme",
+  "repository": "https://github.com/MARC701/KEITH-MD.git",
+  "logo": "https://i.imgur.com/m0NTPFI.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -26,7 +26,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254748387615, 254796299159",
-      "required": false
+      "required": true
     },
     "OWNER_NAME": {
       "description": "add your owner name for the bot",
@@ -44,12 +44,12 @@
     },
     "URL": {
       "description": "Replace with your image url",
-      "value": "https://files.catbox.moe/mikdi0.jpg",
+      "value": "https://i.imgur.com/m0NTPFI.jpeg",
       "required": true
     },
     "MODE": {
       "description": "Type private if you don't want other people to use the bot or public if you want everyone to access",
-      "value": "public",
+      "value": "private",
       "required": false
     }
   },
