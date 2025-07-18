@@ -1,5 +1,5 @@
 {
-  "name": "𝙈𝘼𝙍𝘾-𝙈𝘿",
+  "name": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃",
   "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
   "keywords": [
     "bot",
@@ -30,12 +30,12 @@
     },
     "OWNER_NAME": {
       "description": "add your owner name for the bot",
-      "value": "",
+      "value": "𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮",
       "required": true
     },
     "BOTNAME": {
       "description": "Enter name for your bot",
-      "value": "",
+      "value": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃",
       "required": true
     },
     "SESSION": {
@@ -49,7 +49,7 @@
     },
     "MODE": {
       "description": "Type private if you don't want other people to use the bot or public if you want everyone to access",
-      "value": "private",
+      "value": "public",
       "required": false
     }
   },
