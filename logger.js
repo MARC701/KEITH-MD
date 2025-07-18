@@ -39,7 +39,7 @@ class KeithLogger {
         const messageType = m.mtype;
         const text = m.text || '';
 
-        console.log(keithPurple.bold(`\t ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL} { ᴹᴬᶠᴵᴬ⁻ᴹᴰ } ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL}`));
+        console.log(keithPurple.bold(`\t ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL} { 𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 } ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL}`));
         console.log(keithGold.bold("╔════════════════════════════╗"));
         console.log(keithGold.bold(`║ ${MESSAGE_SYMBOL}   N E W   M E S S A G E   ${MESSAGE_SYMBOL} ║`));
         console.log(keithGold.bold("╚════════════════════════════╝"));
