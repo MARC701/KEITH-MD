@@ -10,12 +10,12 @@ const AntiCallDB = database.define('anticall', {
     message: {
         type: DataTypes.STRING,
         defaultValue: '𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 declined your 🤙 call',
-        allowNull: false
+        allowNull: true
     },
     action: {
         type: DataTypes.ENUM('reject', 'block'),
         defaultValue: 'reject',
-        allowNull: false
+        allowNull: true
     }
 }, {
     timestamps: true
