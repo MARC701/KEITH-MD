@@ -9,8 +9,8 @@ const AutoReactDB = database.define('autoreact', {
     },
     emojis: {
         type: DataTypes.JSON,
-        defaultValue: ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '😊', '🎊', '🎉', '🎁', '🎈', '👋'],
-        allowNull: false
+        defaultValue: ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '😊', '🎊', '🎉', '🎁', '😍', '🔷'],
+        allowNull: true
     }
 }, {
     timestamps: false
