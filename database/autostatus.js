@@ -4,7 +4,7 @@ const { database } = require('../settings');
 const AutoStatusDB = database.define('autostatus', {
     enabled: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        defaultValue: true,
         allowNull: false
     },
     saveToInbox: {
@@ -14,7 +14,7 @@ const AutoStatusDB = database.define('autostatus', {
     },
     notifyOwner: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        defaultValue: true,
         allowNull: false
     }
 }, {
