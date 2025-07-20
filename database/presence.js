@@ -4,16 +4,16 @@ const { database } = require('../settings');
 const PresenceDB = database.define('presence', {
     privateChat: {
         type: DataTypes.STRING,
-        defaultValue: 'off',
-        allowNull: false,
+        defaultValue: 'typing',
+        allowNull: true,
         validate: {
             isIn: [['off', 'online', 'typing', 'recording']]
         }
     },
     groupChat: {
         type: DataTypes.STRING,
-        defaultValue: 'off',
-        allowNull: false,
+        defaultValue: 'typing',
+        allowNull: true,
         validate: {
             isIn: [['off', 'online', 'typing', 'recording']]
         }
