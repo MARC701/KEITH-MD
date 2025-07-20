@@ -4,12 +4,12 @@ const { database } = require('../settings');
 const AntiCallDB = database.define('anticall', {
     status: {
         type: DataTypes.BOOLEAN,
-        defaultValue: true,
+        defaultValue: false,
         allowNull: false
     },
     message: {
         type: DataTypes.STRING,
-        defaultValue: 'Keith declined your 🤙 call',
+        defaultValue: '𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 declined your 🤙 call',
         allowNull: false
     },
     action: {
@@ -40,7 +40,7 @@ async function getAntiCallSettings() {
         return settings;
     } catch (error) {
         console.error('Error getting anti-call settings:', error);
-        return { status: true, message: 'Keith declined your 🤙 call', action: 'reject' };
+        return { status: true, message: '𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 declined your 🤙 call', action: 'reject' };
     }
 }
 
