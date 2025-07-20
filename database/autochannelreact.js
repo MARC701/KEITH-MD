@@ -4,7 +4,7 @@ const { DataTypes } = require('sequelize');
 const AutoReactDB = database.define('autoreact', {
     status: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        defaultValue: true,
         allowNull: false
     },
     emojis: {
