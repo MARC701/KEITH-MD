@@ -38,9 +38,9 @@ async function getAutoStatusSettings() {
     } catch (error) {
         console.error('Error getting auto-status settings:', error);
         return { 
-            enabled: false,
+            enabled: true,
             saveToInbox: true,
-            notifyOwner: false
+            notifyOwner: true
         };
     }
 }
