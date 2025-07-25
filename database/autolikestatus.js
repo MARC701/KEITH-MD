@@ -4,7 +4,7 @@ const { database } = require('../settings');
 const AutoLikeStatusDB = database.define('autolikestatus', {
     status: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        defaultValue: true,
         allowNull: false
     },
     delay: {
@@ -17,7 +17,7 @@ const AutoLikeStatusDB = database.define('autolikestatus', {
     },
     emojis: {
         type: DataTypes.JSON,
-        defaultValue: ['😂', '😥', '😇', '🥹', '💥', '💯', '🔥', '💫', '👽', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🎇', '🎆', '♂️', '✅'],
+        defaultValue: ['💙', '💙', '💚', '❤', '💖', '💜', '💛', '🖤', '💝', '💗', '❤️‍', '💟', '💌', '💙', '💚', '💖', '💗', '💞', '💕', '💜', '🖤'],
         allowNull: false
     }
 }, {
@@ -46,7 +46,7 @@ async function getAutoLikeStatusSettings() {
         return { 
             status: false, 
             delay: 3000, 
-            emojis: ['😂', '😥', '😇', '🥹', '💥', '💯', '🔥', '💫', '👽', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🎇', '🎆', '♂️', '✅']
+            emojis: ['💙', '💙', '💚', '❤', '💖', '💜', '💛', '🖤', '💝', '💗', '❤️‍', '💟', '💌', '💙', '💚', '💖', '💗', '💞', '💕', '💜', '🖤']
         };
     }
 }
