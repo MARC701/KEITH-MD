@@ -10,7 +10,7 @@ const AntiDeleteDB = database.define('antidelete', {
     },
     notification: {
         type: DataTypes.STRING,
-        defaultValue: '😍 *MAFIA antiDelete* 😍 *𝐁𝐲 𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲* 👑',
+        defaultValue: '👑 *MAFIA antiDelete 𝐁𝐲 𝐀𝐫𝐬𝐥𝐚𝐧* 👑',
         allowNull: false
     },
     includeGroupInfo: {
