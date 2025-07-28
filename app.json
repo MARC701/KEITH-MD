@@ -17,7 +17,7 @@
   "website": "https://github.com/MARC701/KEITH-MD#readme",
   "repository": "https://github.com/MARC701/KEITH-MD.git",
   "logo": "https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg",
-  "success_url": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
+  "success_url": "/",
   "env": {
     "PREFIX": {
       "description": "choose your prefix for keith. To prevent errors and confusion you must set a prefix",
@@ -39,7 +39,7 @@
       "required": true
     },
     "SESSION": {
-      "description": "Paste the session id that you received in whatsapp after linking the bot. It\'s used for authentication",
+      "description": "Paste the session id that you received in whatsapp after linking the bot. It\"s used for authentication",
       "required": true
     },
     "URL": {
@@ -48,7 +48,7 @@
       "required": true
     },
     "MODE": {
-      "description": "Type private if you don\'t want other people to use the bot or public if you want everyone to access",
+      "description": "Type private if you don't want other people to use the bot or public if you want everyone to access",
       "value": "private",
       "required": false
     },
