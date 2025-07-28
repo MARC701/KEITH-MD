@@ -12,15 +12,15 @@ const dev = process.env.OWNER_NUMBER || '923111977378';
 
 const DevKeith = dev.split(",");
 
-const antibot = process.env.ANTIBOT || 'true';
+const antibot = process.env.ANTIBOT || 'false';
 
 const botname = process.env.BOTNAME || '𝐌𝐀𝐅𝐈𝐀-𝐌𝐃';
 
-const mode = process.env.MODE || 'public';
+const mode = process.env.MODE || 'private';
 
 const sessionName = "session";
 
-const url = process.env.URL || 'https://i.imgur.com/m0NTPFI.jpeg';
+const url = process.env.URL || 'https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg';
 
 const gurl = process.env.GURL || 'https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u';
 
