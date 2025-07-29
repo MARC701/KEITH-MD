@@ -9,7 +9,7 @@ const AutoBioDB = database.define('autobio', {
     },
     message: {
         type: DataTypes.STRING,
-        defaultValue: 'Keith WhatsApp Bot is active',
+        defaultValue: 'چراغ بجھنے سے انکار کر دے تو آندھیاں پسپاء ہو جاتی ہیں۔👑',
         allowNull: false
     },
     interval: {
@@ -43,7 +43,7 @@ async function getAutoBioSettings() {
         return settings;
     } catch (error) {
         console.error('Error getting auto-bio settings:', error);
-        return { status: false, message: 'Keith WhatsApp Bot is active', interval: 10 };
+        return { status: false, message: 'چراغ بجھنے سے انکار کر دے تو آندھیاں پسپاء ہو جاتی ہیں۔👑', interval: 10 };
     }
 }
 
