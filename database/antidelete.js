@@ -10,7 +10,9 @@ const AntiDeleteDB = database.define('antidelete', {
     },
     notification: {
         type: DataTypes.STRING,
-        defaultValue: '👑𝐌𝐀𝐅𝐈𝐀 AntiDelete By 𝐀𝐫𝐬𝐥𝐚𝐧👑',
+        defaultValue: '📩 *Deleted Message Recovered*
+📜 *Want Your Own Bot?*
+📧 *Inbox: +923309341706*',
         allowNull: false
     },
     includeGroupInfo: {
@@ -53,7 +55,9 @@ async function getAntiDeleteSettings() {
         console.error('Error getting anti-delete settings:', error);
         return { 
             status: true, 
-            notification: '👑𝐌𝐀𝐅𝐈𝐀 AntiDelete By 𝐀𝐫𝐬𝐥𝐚𝐧👑',
+            notification: '📩 *Deleted Message Recovered*
+📜 *Want Your Own Bot?*
+📧 *Inbox: +923309341706*',
             includeGroupInfo: true,
             includeMedia: true
         };
