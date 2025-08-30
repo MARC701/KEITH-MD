@@ -4,7 +4,7 @@ const { database } = require('../settings');
 const AutoViewDB = database.define('autoview', {
     status: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        defaultValue: true,
         allowNull: false
     }
 }, {
