@@ -1,5 +1,5 @@
 {
-  "name": "KEITH-MD",
+  "name": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃",
   "version": "2.0.0",
   "description": "WhatsApp Multi Device Bot",
   "main": "index.js",
@@ -78,10 +78,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Keithkeizzah/KEITH-MD.git"
+    "url": "git+https://github.com/MARC701/KEITH-MD.git"
   },
   "bugs": {
     "url": "https://github.com/Keithkeizzah/KEITH-MD/issues"
   },
-  "homepage": "https://github.com/Keithkeizzah/KEITH-MD#readme"
+  "homepage": "https://github.com/MARC701/KEITH-MD#readme"
   }
