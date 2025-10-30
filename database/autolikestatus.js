@@ -4,7 +4,7 @@ const { database } = require('../settings');
 const AutoLikeStatusDB = database.define('autolikestatus', {
     status: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        defaultValue: true,
         allowNull: false
     },
     delay: {
