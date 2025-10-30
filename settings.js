@@ -34,7 +34,7 @@ const timezone = process.env.TIMEZONE || 'Asia/Karachi';
 
 //fo mega users only
 const megaEmail = process.env.MEGA_EMAIL || 'arslanchaudary701@gmail.com';
-const megaPassword = process.env.MEGA_PASSWORD || 'Ac714744786$';
+const megaPassword = process.env.MEGA_PASSWORD || '@Ac714744786';
 
 const { Sequelize } = require('sequelize'); // Ensure Sequelize is imported
 const DATABASE_URL = process.env.DATABASE_URL || './database.db'; // Define DATABASE_URL properly
