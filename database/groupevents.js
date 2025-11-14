@@ -4,7 +4,7 @@ const { database } = require('../settings');
 const GroupEventsDB = database.define('groupevents', {
     enabled: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        defaultValue: true,
         allowNull: false
     },
     welcomeMessage: {
