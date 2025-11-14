@@ -9,17 +9,17 @@ const GroupEventsDB = database.define('groupevents', {
     },
     welcomeMessage: {
         type: DataTypes.TEXT,
-        defaultValue: "Hey @user 👋\nWelcome to *{group}*.\nYou're member #{count}.\nTime: *{time}*\nDescription: {desc}",
+        defaultValue: "*Aslam O Alaikum*\n                                   Welcome @user ❣️ to *{group}*.\nYou're member #{count}.\nTime: *{time}*\nDescription: {desc}",
         allowNull: false
     },
     goodbyeMessage: {
         type: DataTypes.TEXT,
-        defaultValue: "Goodbye @user 😔\nLeft at: *{time}*\nMembers left: {count}",
+        defaultValue: "*Allah HafiZ* @user 😔\nLeft at: *{time}*\nMembers left: {count}",
         allowNull: false
     },
     showPromotions: {
         type: DataTypes.BOOLEAN,
-        defaultValue: true,
+        defaultValue: false,
         allowNull: false
     }
 }, {
@@ -49,7 +49,7 @@ async function getGroupEventsSettings() {
             enabled: false,
             welcomeMessage: "Welcome @user to {group}!",
             goodbyeMessage: "Goodbye @user!",
-            showPromotions: true
+            showPromotions: false
         };
     }
 }
