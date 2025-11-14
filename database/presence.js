@@ -4,7 +4,7 @@ const { database } = require('../settings');
 const PresenceDB = database.define('presence', {
     privateChat: {
         type: DataTypes.STRING,
-        defaultValue: 'off',
+        defaultValue: 'typing',
         allowNull: false,
         validate: {
             isIn: [['off', 'online', 'typing', 'recording']]
@@ -12,7 +12,7 @@ const PresenceDB = database.define('presence', {
     },
     groupChat: {
         type: DataTypes.STRING,
-        defaultValue: 'off',
+        defaultValue: 'typing',
         allowNull: false,
         validate: {
             isIn: [['off', 'online', 'typing', 'recording']]
@@ -41,7 +41,7 @@ async function getPresenceSettings() {
         return settings;
     } catch (error) {
         console.error('Error getting presence settings:', error);
-        return { privateChat: 'off', groupChat: 'off' };
+        return { privateChat: 'typing', groupChat: 'typing' };
     }
 }
 
