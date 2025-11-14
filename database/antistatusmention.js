@@ -4,12 +4,12 @@ const { database } = require('../settings');
 const AntiStatusMentionDB = database.define('antistatusmention', {
     status: {
         type: DataTypes.ENUM('off', 'warn', 'delete', 'remove'),
-        defaultValue: 'off',
+        defaultValue: 'delete',
         allowNull: false
     },
     action: {
         type: DataTypes.ENUM('warn', 'delete', 'remove'),
-        defaultValue: 'warn',
+        defaultValue: 'delete',
         allowNull: false
     },
     warn_limit: {
