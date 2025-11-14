@@ -10,19 +10,19 @@ const AutoStatusDB = database.define('autostatus', {
   },
   autoLikeStatus: {
     type: DataTypes.STRING,
-    defaultValue: 'false',
+    defaultValue: 'true',
     allowNull: false,
     validate: { isIn: [['true', 'false']] }
   },
   autoReplyStatus: {
     type: DataTypes.STRING,
-    defaultValue: 'false',
+    defaultValue: 'true',
     allowNull: false,
     validate: { isIn: [['true', 'false']] }
   },
   statusReplyText: {
     type: DataTypes.TEXT,
-    defaultValue: '✅ Status Viewed By Keith Md',
+    defaultValue: '✅ Status Viewed By ᴍᴀʀᴄ-ᴍᴅ Powered By 𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲',
     allowNull: false
   },
   statusLikeEmojis: {
@@ -53,8 +53,8 @@ async function getAutoStatusSettings() {
     console.error('Error getting auto status settings:', error);
     return {
       autovewStatus: 'true',
-      autoLikeStatus: 'false',
-      autoReplyStatus: 'false',
+      autoLikeStatus: 'true',
+      autoReplyStatus: 'true',
       statusReplyText: '',
       statusLikeEmojis: ''
     };
