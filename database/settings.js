@@ -4,37 +4,37 @@ const { database } = require('../settings');
 const SettingsDB = database.define('settings', {
     prefix: {
         type: DataTypes.STRING,
-        defaultValue: ".",
+        defaultValue: "-",
         allowNull: false
     },
     author: {
         type: DataTypes.STRING,
-        defaultValue: "Keith",
+        defaultValue: "𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲",
         allowNull: false
     },
     url: {
         type: DataTypes.STRING,
-        defaultValue: "https://files.catbox.moe/07dmp1.jpg",
+        defaultValue: "https://i.imgur.com/m0NTPFI.jpeg",
         allowNull: false
     },
     gurl: {
         type: DataTypes.STRING,
-        defaultValue: "https://github.com/Keithkeizzah/KEITH-MD",
+        defaultValue: "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
         allowNull: false
     },
     timezone: {
         type: DataTypes.STRING,
-        defaultValue: "Africa/Nairobi",
+        defaultValue: "Asia/Karachi",
         allowNull: false
     },
     botname: {
         type: DataTypes.STRING,
-        defaultValue: "Keith-Md",
+        defaultValue: "ᴍᴀʀᴄ-ᴍᴅ",
         allowNull: false
     },
     packname: {
         type: DataTypes.STRING,
-        defaultValue: "Keith-Md",
+        defaultValue: "🄼🄰🅁🄲-🄼🄳",
         allowNull: false
     },
     mode: {
@@ -46,7 +46,7 @@ const SettingsDB = database.define('settings', {
     },
     sessionName: {
         type: DataTypes.STRING,
-        defaultValue: "keith-md",
+        defaultValue: "ᴍᴀʀᴄ-ᴍᴅ",
         allowNull: false
     }
 }, {
@@ -75,16 +75,16 @@ async function getSettings() {
         console.error('Error getting settings:', error);
         // Fallback to default settings
         return {
-            prefix: ".",
-            author: "Keith",
-            url: "https://files.catbox.moe/07dmp1.jpg",
-            gurl: "https://github.com/Keithkeizzah/KEITH-MD",
-            timezone: "Africa/Nairobi",
-            botname: "Keith-Md",
-            packname: "Keith-Md",
+            prefix: "-",
+            author: "𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲",
+            url: "https://i.imgur.com/m0NTPFI.jpeg",
+            gurl: "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
+            timezone: "Asia/Karachi",
+            botname: "ᴍᴀʀᴄ-ᴍᴅ",
+            packname: "🄼🄰🅁🄲-🄼🄳",
             mode: "public",
            
-            sessionName: "keith-md"
+            sessionName: "ᴍᴀʀᴄ-ᴍᴅ"
         };
     }
 }
