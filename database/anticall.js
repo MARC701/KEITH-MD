@@ -4,12 +4,12 @@ const { database } = require('../settings');
 const AntiCallDB = database.define('anticall', {
     status: {
         type: DataTypes.BOOLEAN,
-        defaultValue: true,
+        defaultValue: false,
         allowNull: false
     },
     message: {
         type: DataTypes.STRING,
-        defaultValue: 'Call me later 🙏',
+        defaultValue: '*ᴍᴀʀᴄ-ᴍᴅ Declined Your Call.Text Me Only*',
         allowNull: false
     },
     action: {
@@ -40,7 +40,7 @@ async function getAntiCallSettings() {
         return settings;
     } catch (error) {
         console.error('Error getting anti-call settings:', error);
-        return { status: true, message: 'call me later 🙏', action: 'reject' };
+        return { status: true, message: 'ᴍᴀʀᴄ-ᴍᴅ Declined Your Call.Text Me Only*', action: 'reject' };
     }
 }
 
