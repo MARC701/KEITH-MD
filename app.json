@@ -16,7 +16,7 @@
   ],
   "website": "https://github.com/MARC701/KEITH-MD#readme",
   "repository": "https://github.com/MARC701/KEITH-MD.git",
-  "logo": "https://i.imgur.com/m0NTPFI.jpeg",
+  "logo": "https://ik.imagekit.io/Arslan701/IMG-20251230-WA0069.jpg",
   "success_url": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
   "env": {
     "PREFIX": {
@@ -44,7 +44,7 @@
     },
     "URL": {
       "description": "Replace with your image url",
-      "value": "https://i.imgur.com/m0NTPFI.jpeg",
+      "value": "https://ik.imagekit.io/Arslan701/IMG-20251230-WA0069.jpg",
       "required": true
     },
     "MODE": {
