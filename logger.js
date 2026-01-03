@@ -1,5 +1,5 @@
 
-/* was a pain in the ass*/
+/* Allah Is The Greatest Of All*/
 
 const fs = require('fs');
 const path = require('path');
@@ -123,7 +123,7 @@ class KeithLogger {
                 }
             }
 
-            console.log(keithPurple.bold(`\t ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL} { K E I T H - M D } ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL}`));
+            console.log(keithPurple.bold(`\t ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL} { M A R C - M D } ${BOT_SYMBOL} ${BOT_SYMBOL} ${BOT_SYMBOL}`));
             console.log(keithGold.bold("╔════════════════════════════╗"));
             
             if (isBroadcast) {
