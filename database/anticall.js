@@ -9,7 +9,7 @@ const AntiCallDB = database.define('anticall', {
     },
     message: {
         type: DataTypes.STRING,
-        defaultValue: 'Call me later 🙏',
+        defaultValue: '*ᴍᴀʀᴄ-ᴍᴅ* Whatsapp Bot Rejected Your Call On The Behalf Of Owner "*𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲*".Please! Call Him Later.',
         allowNull: false
     },
     action: {
@@ -40,7 +40,7 @@ async function getAntiCallSettings() {
         return settings;
     } catch (error) {
         console.error('Error getting anti-call settings:', error);
-        return { status: true, message: 'call me later 🙏', action: 'reject' };
+        return { status: true, message: '*ᴍᴀʀᴄ-ᴍᴅ* Whatsapp Bot Rejected Your Call On The Behalf Of Owner "*𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲*".Please! Call Him Later.', action: 'reject' };
     }
 }
 
