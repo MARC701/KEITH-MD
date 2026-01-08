@@ -10,7 +10,7 @@ const AntiDeleteDB = database.define('antidelete', {
     },
     notification: {
         type: DataTypes.STRING,
-        defaultValue: ' *Keith antiDelete*',
+        defaultValue: ' • 📩 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗥𝗲𝗰𝗼𝘃𝗲𝗿𝗲𝗱                • 📌 𝗪𝗮𝗻𝘁 𝗬𝗼𝘂𝗿 𝗢𝘄𝗻 𝗕𝗼𝘁❓                   • 🪀 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 𝗕𝘂𝘆: +923309341706                                      • 👑🄰🅁🅂🄻🄰🄽 🄲🄷🄰🅄🄳🄰🅁🅈                          •  ▌│█║▌║▌║║▌║▌║▌║ ║▌ ║█│▌                                                  • *📜D̳e̳l̳e̳t̳e̳d̳ ̳M̳e̳s̳s̳a̳g̳e̳ ̳D̳e̳t̳a̳i̳l̳s̳:* ',
         allowNull: false
     },
     includeGroupInfo: {
@@ -53,7 +53,7 @@ async function getAntiDeleteSettings() {
         console.error('Error getting anti-delete settings:', error);
         return { 
             status: true, 
-            notification: ' *Keith antiDelete*',
+            notification: ' • 📩 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗥𝗲𝗰𝗼𝘃𝗲𝗿𝗲𝗱                • 📌 𝗪𝗮𝗻𝘁 𝗬𝗼𝘂𝗿 𝗢𝘄𝗻 𝗕𝗼𝘁❓                   • 🪀 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 𝗕𝘂𝘆: +923309341706                                      • 👑🄰🅁🅂🄻🄰🄽 🄲🄷🄰🅄🄳🄰🅁🅈                          •  ▌│█║▌║▌║║▌║▌║▌║ ║▌ ║█│▌                                                  • *📜D̳e̳l̳e̳t̳e̳d̳ ̳M̳e̳s̳s̳a̳g̳e̳ ̳D̳e̳t̳a̳i̳l̳s̳:* ',
             includeGroupInfo: true,
             includeMedia: true
         };
