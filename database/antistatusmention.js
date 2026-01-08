@@ -4,12 +4,12 @@ const { database } = require('../settings');
 const AntiStatusMentionDB = database.define('antistatusmention', {
     status: {
         type: DataTypes.ENUM('off', 'warn', 'delete', 'remove'),
-        defaultValue: 'warn',
+        defaultValue: 'delete',
         allowNull: false
     },
     action: {
         type: DataTypes.ENUM('warn', 'delete', 'remove'),
-        defaultValue: 'warn',
+        defaultValue: 'delete',
         allowNull: false
     },
     warn_limit: {
@@ -44,7 +44,7 @@ async function getAntiStatusMentionSettings() {
     } catch (error) {
         console.error('Error getting anti-status-mention settings:', error);
         return { 
-            status: 'off', 
+            status: 'delete', 
             action: 'warn', 
             warn_limit: 3
         };
