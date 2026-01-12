@@ -16,11 +16,11 @@
   ],
   "website": "https://github.com/MARC701/KEITH-MD#readme",
   "repository": "https://github.com/MARC701/KEITH-MD.git",
-  "logo": "https://ik.imagekit.io/Arslan701/IMG-20251230-WA0069.jpg",
+  "logo": "https://files.catbox.moe/tk2vu5.jpg",
   "success_url": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
   "env": {
     "PREFIX": {
-      "description": "choose your prefix for keith. To prevent errors and confusion you must set a prefix",
+      "description": "choose your prefix for ᴍᴀʀᴄ-ᴍᴅ. To prevent errors and confusion you must set a prefix",
       "value": "-",
       "required": false
     },
@@ -44,7 +44,7 @@
     },
     "URL": {
       "description": "Replace with your image url",
-      "value": "https://ik.imagekit.io/Arslan701/IMG-20251230-WA0069.jpg",
+      "value": "https://files.catbox.moe/tk2vu5.jpg",
       "required": true
     },
     "MODE": {
