@@ -22,12 +22,12 @@ const AutoStatusDB = database.define('autostatus', {
   },
   statusReplyText: {
     type: DataTypes.TEXT,
-    defaultValue: '✅ Status Viewed & Liked Successfully By *MARC-MD* Whatsapp Bot Powered By *𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲*',
+    defaultValue: '✅ Status Viewed & Liked Successfully By *MARC-MD* Whatsapp Bot Powered By *𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲👑.*',
     allowNull: false
   },
   statusLikeEmojis: {
     type: DataTypes.TEXT,
-    defaultValue: '💛,❤️,💜,🤍,💙',
+    defaultValue: '💛,❤️,👍,🤍,☑,💎,🔰,🇵🇰,🇵🇸',
     allowNull: false
   }
 }, {
