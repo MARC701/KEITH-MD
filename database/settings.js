@@ -15,7 +15,7 @@ const SettingsDB = database.define('settings', {
     },
     url: {
         type: DataTypes.STRING,
-        defaultValue: "https://ik.imagekit.io/Arslan701/IMG-20251230-WA0069.jpg",
+        defaultValue: "https://files.catbox.moe/tk2vu5.jpg",
         allowNull: false
     },
     gurl: {
@@ -47,7 +47,7 @@ const SettingsDB = database.define('settings', {
     },
     sessionName: {
         type: DataTypes.STRING,
-        defaultValue: "MARC-MD",
+        defaultValue: "ᴍᴀʀᴄ-ᴍᴅ",
         allowNull: false
     }
 }, {
@@ -85,7 +85,7 @@ async function getSettings() {
             packname: "ᴍᴀʀᴄ-ᴍᴅ",
             mode: "public",
            
-            sessionName: "MARC-MD"
+            sessionName: "ᴍᴀʀᴄ-ᴍᴅ"
         };
     }
 }
