@@ -5,37 +5,37 @@ const { database } = require('../settings');
 const SettingsDB = database.define('settings', {
     prefix: {
         type: DataTypes.STRING,
-        defaultValue: ".",
+        defaultValue: "-",
         allowNull: false
     },
     author: {
         type: DataTypes.STRING,
-        defaultValue: "Keith",
+        defaultValue: "𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲",
         allowNull: false
     },
     url: {
         type: DataTypes.STRING,
-        defaultValue: "https://files.catbox.moe/9zqj7g.jpg",
+        defaultValue: "https://files.catbox.moe/tk2vu5.jpg",
         allowNull: false
     },
     gurl: {
         type: DataTypes.STRING,
-        defaultValue: "https://github.com/Keithkeizzah/KEITH-MD",
+        defaultValue: "https://github.com/MARC701/KEITH-MD",
         allowNull: false
     },
     timezone: {
         type: DataTypes.STRING,
-        defaultValue: "Africa/Nairobi",
+        defaultValue: "Asia/Karachi",
         allowNull: false
     },
     botname: {
         type: DataTypes.STRING,
-        defaultValue: "KEITH-MD",
+        defaultValue: "ᴍᴀʀᴄ-ᴍᴅ",
         allowNull: false
     },
     packname: {
         type: DataTypes.STRING,
-        defaultValue: "KEITH-MD",
+        defaultValue: "ᴍᴀʀᴄ-ᴍᴅ",
         allowNull: false
     },
     mode: {
@@ -47,7 +47,7 @@ const SettingsDB = database.define('settings', {
     },
     sessionName: {
         type: DataTypes.STRING,
-        defaultValue: "keith-md",
+        defaultValue: "ᴍᴀʀᴄ-ᴍᴅ",
         allowNull: false
     }
 }, {
@@ -62,7 +62,7 @@ async function initSettingsDB() {
     } catch (error) {
         console.error('Error initializing Settings table:', error);
         throw error;
-    }
+ }
 }
 
 async function getSettings() {
@@ -76,16 +76,16 @@ async function getSettings() {
         console.error('Error getting settings:', error);
         // Fallback to default settings
         return {
-            prefix: ".",
-            author: "Keith",
-            url: "https://files.catbox.moe/9zqj7g.jpg",
-            gurl: "https://github.com/Keithkeizzah/KEITH-MD",
-            timezone: "Africa/Nairobi",
-            botname: "KEITH-MD",
-            packname: "KEITH-MD",
+            prefix: "-",
+            author: "𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲",
+            url: "https://files.catbox.moe/tk2vu5.jpg",
+            gurl: "https://github.com/MARC701/KEITH-MD",
+            timezone: "Asia/Karachi",
+            botname: "ᴍᴀʀᴄ-ᴍᴅ",
+            packname: "ᴍᴀʀᴄ-ᴍᴅ",
             mode: "public",
            
-            sessionName: "KEITH-MD"
+            sessionName: "ᴍᴀʀᴄ-ᴍᴅ"
         };
     }
 }
