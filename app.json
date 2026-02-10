@@ -1,5 +1,5 @@
 {
-  "name": "KEITH-MD",
+  "name": "ᴍᴀʀᴄ-ᴍᴅ",
   "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
   "keywords": [
     "bot",
@@ -14,17 +14,47 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Keithkeizzah/KEITH-MD#readme",
-  "repository": "https://github.com/Keithkeizzah/KEITH-MD.git",
-  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
-  "success_url": "/",
+  "website": "https://github.com/MARC701/KEITH-MD#readme",
+  "repository": "https://github.com/MARC701/KEITH-MD.git",
+  "logo": "https://files.catbox.moe/tk2vu5.jpg",
+  "success_url": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
   "env": {
-    "OWNER_NUMBER": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254748387615, 254796299159",
+    "PREFIX": {
+      "description": "choose your prefix for ᴍᴀʀᴄ-ᴍᴅ. To prevent errors and confusion you must set a prefix",
+      "value": "-",
       "required": false
     },
+    "OWNER_NUMBER": {
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 923111977378, 923309341706",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "add your owner name for the bot",
+      "value": "𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮",
+      "required": true
+    },
+    "BOTNAME": {
+      "description": "Enter name for your bot",
+      "value": "ᴍᴀʀᴄ-ᴍᴅ",
+      "required": true
+    },
     "SESSION": {
-      "description": "add your session id here",
+      "description": "Paste the session id that you received in whatsapp after linking the bot. It\"s used for authentication",
+      "required": true
+    },
+    "URL": {
+      "description": "Replace with your image url",
+      "value": "https://files.catbox.moe/tk2vu5.jpg",
+      "required": true
+    },
+    "MODE": {
+      "description": "Type private if you don't want other people to use the bot or public if you want everyone to access",
+      "value": "private",
+      "required": true
+    },
+    "GURL": {
+      "description": "WhatsApp Channel Invite Link",
+      "value": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
       "required": true
     }
   },
@@ -34,4 +64,4 @@
     }
   ],
   "stack": "heroku-24"
-}
+  }
