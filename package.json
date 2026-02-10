@@ -1,6 +1,6 @@
 
 {
-  "name": "KEITH-MD",
+  "name": "ᴍᴀʀᴄ-ᴍᴅ",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "whatsapp-bot",
     "keithkeizzah"
   ],
-  "author": "keithkeizzah",
+  "author": "𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "npm:keithbaileys",
